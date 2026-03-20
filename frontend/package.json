@@ -1,0 +1,44 @@
+{
+  "name": "cognitive-deception-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:clean": "rm -rf .next && next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "next build --webpack"
+  },
+  "dependencies": {
+    "@deck.gl/layers": "^9.2.2",
+    "@deck.gl/react": "^9.2.2",
+    "@radix-ui/react-progress": "^1.1.7",
+    "@radix-ui/react-select": "^2.2.5",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.17.14",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.468.0",
+    "mapbox-gl": "^3.20.0",
+    "next": "^16.1.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-map-gl": "^7.1.9",
+    "recharts": "^2.15.1",
+    "tailwind-merge": "^2.6.0",
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.1.7",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,29 @@
+@import "../styles/tokens.css";
+@import "mapbox-gl/dist/mapbox-gl.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  border-color: rgba(100, 116, 139, 0.18);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: radial-gradient(circle at 12% 12%, rgba(0, 229, 255, 0.08), transparent 42%),
+    radial-gradient(circle at 78% 30%, rgba(124, 77, 255, 0.1), transparent 46%), var(--bg);
+  color: #dbe5f3;
+}
+
+body {
+  background-size: cover;
+  font-family: Inter, "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+.cyber-grid {
+  background-image: radial-gradient(circle at 1px 1px, rgba(0, 229, 255, 0.1) 1px, transparent 0);
+  background-size: 22px 22px;
+}

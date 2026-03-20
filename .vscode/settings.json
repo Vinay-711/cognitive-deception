@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": "/Users/vinxy/cybersecurity/cognitive-deception/backend/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.extraPaths": ["${workspaceFolder}/backend/src"],
+  "python.analysis.diagnosticMode": "workspace",
+  "pyre.configuration": "${workspaceFolder}/.pyre_configuration",
+  "pyre.enabled": false
+}

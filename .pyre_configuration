@@ -1,0 +1,5 @@
+{
+  "source_directories": ["backend/src"],
+  "site_package_search_path": ["backend/.venv/lib/python3.14/site-packages"],
+  "exclude": ["**/.venv/**", "**/.venv_sys/**", "**/node_modules/**", "frontend/**"]
+}
