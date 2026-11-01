@@ -129,3 +129,9 @@ This executes a staged attacker progression (recon -> credential attempts -> exf
    cd backend && .venv/bin/python -m pytest
    ```
 4. Open a pull request with a clear summary and test evidence.
+
+## Documentation and local evaluation
+
+Start with [backend API entry point](backend/src/cognitive_deception/api/main.py), [frontend setup](frontend/README.md) and [architecture context](architecture/README.md). The [ai_engine](ai_engine/README.md) directory contains lightweight demonstration components; the backend package has its own AI implementation.
+
+Run simulations only in an isolated environment you control. Synthetic attack streams and inferred behavior labels are not evidence about a real person’s motives. Optional Kafka, Redis, Elasticsearch, Neo4j and honeypot integrations need separate verification; a fallback demo does not establish that those services are connected.

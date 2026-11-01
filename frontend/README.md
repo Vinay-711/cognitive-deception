@@ -1,6 +1,6 @@
 # Cognitive Deception Frontend
 
-Production-grade Next.js 14 interface for the **Cognitive Deception** adaptive honeypot platform.
+Next.js interface for the **Cognitive Deception** adaptive honeypot platform.
 
 ## Stack
 
