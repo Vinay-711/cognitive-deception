@@ -135,3 +135,13 @@ This executes a staged attacker progression (recon -> credential attempts -> exf
 Start with [backend API entry point](backend/src/cognitive_deception/api/main.py), [frontend setup](frontend/README.md) and [architecture context](architecture/README.md). The [ai_engine](ai_engine/README.md) directory contains lightweight demonstration components; the backend package has its own AI implementation.
 
 Run simulations only in an isolated environment you control. Synthetic attack streams and inferred behavior labels are not evidence about a real person’s motives. Optional Kafka, Redis, Elasticsearch, Neo4j and honeypot integrations need separate verification; a fallback demo does not establish that those services are connected.
+
+### Intent heuristic regression checks
+
+Install `requirements-intent-test.txt`, then run
+`python -m pytest tests_lightweight/test_intent_boundaries.py -q`.
+This isolated suite does not require the model-serving stack. Intent indicators use
+word boundaries, so `start`, `passwordless`, and `nmaple` do not match `tar`,
+`password`, or `nmap`. Tool paths and punctuation-delimited indicators still match.
+These are heuristic labels with fixed scores, not calibrated detection probabilities.
+The lightweight GitHub Actions workflow also runs on the default `master` branch.
